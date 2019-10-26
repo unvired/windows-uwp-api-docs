@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.9.15.0" projectFile="C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Unvired_Kernel_UWP_Document.shfbproj" started="10/26/2019 1:50:08 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.9.15.0" projectFile="C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Unvired_Kernel_UWP_Document.shfbproj" started="10/26/2019 3:30:48 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -37,11 +37,11 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0180
+</plugIn>    Last step completed in 00:00:00.0161
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0079
+    Last step completed in 00:00:00.0139
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -51,7 +51,7 @@ Adding ignored assembly names to assembly resolver configuration:
     Microsoft.VisualStudio.TestTools.UITest.Playback
     Newtonsoft.Json
 </plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 10/26/2019 1:50:12 PM.
+Build started 10/26/2019 3:30:51 PM.
 Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -80,12 +80,12 @@ GenerateRefInfo:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:09.1124
+    Last step completed in 00:00:09.0255
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
-Build started 10/26/2019 1:50:21 PM.
+Build started 10/26/2019 3:31:00 PM.
 Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2019.9.15.0)
@@ -102,11 +102,11 @@ TransformManifest:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:02.8108
+    Last step completed in 00:00:02.4748
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.2560
+    Last step completed in 00:00:00.3010
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -126,12 +126,12 @@ Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.1299
+    Last step completed in 00:00:01.3000
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0039
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -140,7 +140,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 10/26/2019 1:50:25 PM.
+Build started 10/26/2019 3:31:04 PM.
 Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2019.9.15.0)
@@ -149,24 +149,24 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.6149
+    Last step completed in 00:00:00.6399
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2770
+    Last step completed in 00:00:00.3192
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:00.0065
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
-Build started 10/26/2019 1:50:26 PM.
+Build started 10/26/2019 3:31:05 PM.
 Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2019.9.15.0)
@@ -197,11 +197,11 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Unvired.Kernel.UWP
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:00:23.2905
+    Last step completed in 00:00:25.9814
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.2950
+    Last step completed in 00:00:00.0226
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -217,7 +217,7 @@ Processed 1376 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\WebKI.xml
 Saving website table of contents to C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\WebTOC.xml
-    Last step completed in 00:00:04.6797
+    Last step completed in 00:00:01.7573
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -299,18 +299,18 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; C:\Jenkins\Build\workspace\Unvired_Kernel_4.0_Windows10\Sandcastle\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:02.6018
+    Last step completed in 00:00:08.1765
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:02.3319
+</plugIn>    Last step completed in 00:00:02.5948
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -319,15 +319,15 @@ Copied 500 files
 Copied 1000 files
 Copied 1500 files
 Copied 1785 files for the website content
-    Last step completed in 00:00:04.9527
+    Last step completed in 00:00:05.4667
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:05.4246
+    Last step completed in 00:00:05.2907
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 10/26/2019 1:51:09 PM.  Total time: 00:01:00.8492
+Build completed successfully at 10/26/2019 3:31:54 PM.  Total time: 00:01:06.1904
 
 </buildStep>
 </shfbBuild>
